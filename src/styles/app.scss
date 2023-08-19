@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import "colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+@import "header.scss";
+@import "home.scss";
+@import "product.scss";
+@import "cart.scss";
+@import "cartItem.scss";
+@import "mediaquery.scss";
+
+body {
+  background: $primary;
+  color: $tertiary;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
